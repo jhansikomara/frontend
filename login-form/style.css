@@ -1,0 +1,15 @@
+body{
+
+    margin:10;
+    padding :10;
+    background: linear-gradient(120deg, rgb(255, 136, 0),rgb(255, 230, 0));
+
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
