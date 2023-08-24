@@ -32,3 +32,30 @@
   .botton{
     font-weight: 300;
   }
+  .containers{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;
+    height: 485px;
+    
+  }
+  .subhead{
+    text-align: center;
+  }
+  .para{
+    width: 1100px;
+    text-align: center;
+  }
+  .image-container{
+    display: flex;
+    /* gap: 30px; */
+  
+    justify-content: space-around;
+  }
+.image-container div img{
+    height: 250px;
+    width: 250px;
+  }
