@@ -60,6 +60,7 @@
   .image-container{
     display: flex;
     /* gap: 30px; */
+  }
 /*   
     justify-content: space-around;
   }
@@ -82,3 +83,12 @@
     justify-content: space-between;
 
   } */
+  .main-bar{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+  }
