@@ -1,0 +1,184 @@
+
+
+.nav-container {
+    height: 100vh;
+    width:100%;
+    background-image: linear-gradient(rgba(3, 1, 69, 1.29), rgba(1, 3, 7, 0.47)), url("../../Assets/background\ .jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 18%;
+    box-sizing: border-box;
+    position: relative;
+    /* border-width: 500px; */
+    /* overflow: scroll; */
+  
+    
+}
+
+.navbar {
+    width: 100px;
+    height: 18vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    padding-left: 200px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+nav {
+    flex: 1;
+    padding-left: 60px;
+    
+
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 50px;
+    display: flex;
+}
+
+ul li {
+    width: 100px;
+    margin: left;
+    padding: 10px 20px;
+    display: inline-block;
+    justify-content: space-around;
+
+
+
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    position: left;
+    margin: 1px;
+    display: flex;
+
+}
+
+ul li a:hover {
+    color: orange;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+button {
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 10px;
+    padding: 45px 45px;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 17px 40px;
+    display: flex;
+    border-color: white;
+
+}
+
+
+.containers {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    height: 380px;
+    text-align: center;
+
+}
+
+.subhead h1 {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    padding-right: 180px;
+    padding-left: 500px;
+   
+    font-size: 60px;
+    
+
+}
+
+.subhead .head1 {
+    margin-bottom: 0;
+    text-align:left;
+    padding-right: 0px;
+    
+
+   
+}
+
+.head2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+
+
+.para {
+    width: 940px;
+    text-align: center;
+    display: flex;
+    padding-left: 280px;
+    margin-top: 0;
+    
+}
+
+.demobutton {
+    
+    position: down;
+    justify-content: center;
+    display: flex;
+    padding-left: 280px;
+    margin-top: 0px;
+   
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 380px;
+    margin-top: 100px;
+    padding-right: 80px;
+}
+
+ .image-container img{
+    display: flex;
+    justify-content: space-around;
+    height: 270px;
+    width: 270px;
+    flex-direction: row;
+    /* padding-left: 200px;
+    padding-right: 80px; */
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+   
+}
+.section1{
+     border-bottom-left-radius: px; 
+    flex-wrap: nowrap;
+}
+
+
