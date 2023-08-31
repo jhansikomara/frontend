@@ -1,3 +1,8 @@
+body{
+    overflow-x: hidden;
+    
+}
+
 .brand-bar {
     width: 100%;
     background-color: black;
@@ -13,6 +18,7 @@
 .imagecontainer img {
     height: 18px;
     width: 150px;
+    
 
 }
 
@@ -29,7 +35,7 @@
 }
 
 .nav-container {
-    height: 80vh;
+    height: 83vh;
     width: 100%;
     background-image: linear-gradient(rgba(3, 1, 69, 1.29), rgba(1, 3, 7, 0.47)), url("../first-project/Assets/background.jpg");
     background-position: center;
@@ -176,9 +182,10 @@ button {
     margin-top: 0px;
     padding-right: 80px;
     margin-bottom: 0px;
+    
 }
 
-.image-container img {
+.image-container img{
     display: flex;
     justify-content: space-around;
     height: 270px;
@@ -187,6 +194,7 @@ button {
     float: left;
     padding: 5px;
     margin-right: 10px;
+    border-radius: 5px;
 
 }
 
@@ -413,7 +421,7 @@ h6 {
     display: flex;
     flex-direction: row;
     color: white;
-    /* gap: 30px; */
+ 
     
 }
 
@@ -424,8 +432,6 @@ h6 {
     padding-right: 10px;
     padding-top: 38px;
     padding-left: 25px;
-    
-   
      
 } 
 
@@ -434,15 +440,62 @@ h6 {
     font-size: 16px;
 }
 
-.row1{
+
+.row1 img{
     margin-top: 70px;
+    border-radius: 3px;
 }
 
-      /* FOURTH PAGE */
+           /* FOURTH PAGE */
 
 .fourthcontainer{
     height: 100vh;
+    
+    width: 100vh;
+    
+}
 
 
+.largeimage1 img{
+   
+    width: 98vh;
+    margin-top: 50px;
+    height: 55vh;
+    position: relative;
+    left: 300px;
+    border-radius: 5px;
+}
+
+
+.floating-image1  img{
+    height: 45vh;
+    width: 21vh;
+    position: absolute;
+    float: right;
+    left: 830px;
+    margin-top: 190px;
+    border-radius: 5px;
+    
+}
+
+
+.fourthcontainer h1{
+   
+    padding-top: 20%;
+    justify-content: left;
+    left: text;
+    
+    
+   
+}
+
+
+.title h1{
+    font-size: 35px;
 
 }
+
+.title p{
+    padding-top: 20px;
+}
+
