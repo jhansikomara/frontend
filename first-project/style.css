@@ -1,6 +1,6 @@
-body{
+body {
     overflow-x: hidden;
-    
+
 }
 
 .brand-bar {
@@ -18,7 +18,7 @@ body{
 .imagecontainer img {
     height: 18px;
     width: 150px;
-    
+
 
 }
 
@@ -182,10 +182,10 @@ button {
     margin-top: 0px;
     padding-right: 80px;
     margin-bottom: 0px;
-    
+
 }
 
-.image-container img{
+.image-container img {
     display: flex;
     justify-content: space-around;
     height: 270px;
@@ -417,85 +417,263 @@ h6 {
     margin-top: 30px;
 }
 
-.icontext{
+.icontext {
     display: flex;
     flex-direction: row;
     color: white;
- 
-    
+
+
 }
 
-.icontext i{
- 
+.icontext i {
+
     font-size: 21px;
-     color: #CFA670; 
+    color: #CFA670;
     padding-right: 10px;
     padding-top: 38px;
     padding-left: 25px;
-     
-} 
 
-.icontext h6{
+}
+
+.icontext h6 {
     font-weight: bold;
     font-size: 16px;
 }
 
 
-.row1 img{
+.row1 img {
     margin-top: 70px;
     border-radius: 3px;
 }
 
-           /* FOURTH PAGE */
+/* FOURTH PAGE */
 
-.fourthcontainer{
-    height: 100vh;
-    
-    width: 100vh;
-    
+.fourthcontainer {
+    height: 300px;
+
+    width: 100%;
+
+}
+.rowtwo{
+    margin-bottom: 300px;
 }
 
+.largeimage1 img {
 
-.largeimage1 img{
-   
     width: 98vh;
-    margin-top: 50px;
+    margin-top: 90px;
     height: 55vh;
     position: relative;
-    left: 300px;
+    right: 250px;
     border-radius: 5px;
 }
 
 
-.floating-image1  img{
+.floating-image1 img {
     height: 45vh;
     width: 21vh;
     position: absolute;
     float: right;
-    left: 830px;
-    margin-top: 190px;
+    left: 890px;
+    margin-top: 250px;
+    border-radius: 5px;
+
+}
+
+.title {
+    padding-top: 6%;
+}
+
+
+.title h2 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.title p {
+    padding-top: 20px;
+    font-size: 16px;
+
+}
+
+.title i {
+    font-size: 20px;
+    color: #CFA670;
+    padding-top: 18px;
+    line-height: 2px;
+
+}
+
+.tickicon {
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+.btn-primary {
+    background-color: rgb(2, 2, 27);
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 20px;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin-top: 38px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 25px;
+
+}
+
+
+.large-image2 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+
+
+}
+
+.img1 {
+    position: absolute;
+    z-index: 1;
+    height: 54vh;
+    width: 95vh;
+    padding-top: 35px;
+
+
+}
+
+.img2 {
+    position: absolute;
+    z-index: 2;
+    width: 168px;
+    height: 162px;
+    top: 355px;
+    left: 675px;
+    border-radius: 5px;
+
+
+}
+
+.img3 {
+    position: absolute;
+    z-index: 2;
+    width: 157px;
+    height: 157px;
+    left: 700px;
+    border-radius: 5px;
+
+}
+
+.img4 {
+    position: absolute;
+    z-index: 2;
+    height: 115px;
+    width: 175px;
+    border-radius: 5px;
+    top: 300px;
+    left: 210px;
+
+
+}
+
+.title11 {
+    float: right;
+    padding-top: 10%;
+    margin-right: 100px;
+    left: 900px;
+    padding-left: 400px;
+
+}
+
+.title11 h2 {
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+.title11 p {
+    padding-top: 20px;
+    font-size: 16px;
+
+}
+
+.title11 i {
+    font-size: 20px;
+    color: #CFA670;
+    padding-top: 18px;
+    line-height: 2px;
+
+}
+
+.tickicon1 {
+    font-weight: bold;
+    padding-left: 6px;
+}
+
+
+.button3 {
+    background-color: rgb(2, 2, 27);
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-left: 20px;
+}
+
+
+.large-image3{
+    position: relative;
+
+}
+.img31 {
+
+    width: 800px;
+    margin-top: 90px;
+    z-index: 1;
+    height: 460px;
+    position: relative;
+    /* right: 420px; */
+    border-radius: 5px;
+    margin-top: -7px;
+    margin-left: 100px;
+}
+
+  .large-image3 .img32 img{
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    float: right;
+    z-index: 2;
+    /* margin-bottom: 490px; */
+    border-radius: 5px;
+    /* left: 890px; */
+
+}
+
+.img33{
+    width: 180px;
+    height: 70px;
+    z-index: 2;
+    padding-bottom: 40px;
+    position: absolute;
+}
+
+ /* .img32{
+    position: absolute;
+    z-index: 2;
+    width: 268px;
+    height: 262px;
+    top: 15px;
+    right: 65px;
     border-radius: 5px;
     
-}
 
-
-.fourthcontainer h1{
-   
-    padding-top: 20%;
-    justify-content: left;
-    left: text;
-    
-    
-   
-}
-
-
-.title h1{
-    font-size: 35px;
-
-}
-
-.title p{
-    padding-top: 20px;
-}
-
+}  */
