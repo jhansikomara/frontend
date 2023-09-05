@@ -44,6 +44,7 @@ body {
 
 }
 
+
 .navbar-container {
     display: flex;
     flex-direction: row;
@@ -193,6 +194,7 @@ button {
     padding: 5px;
     margin-right: 10px;
     border-radius: 5px;
+    margin-bottom: 30px;
 
 }
 
@@ -328,10 +330,28 @@ h5 {
 /* THIRD PAGE */
 
 
+.border-container{
+    margin-top: 50px;
+}
+.curve-border31 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-top-right-radius: 40px;
+    height: 35px;
+
+}
+
+.curve-border32 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-top-left-radius: 40px;
+    height: 35px;
+
+}
+
 .thirdcontainer {
     background-image: linear-gradient(rgba(6, 21, 53, 0.94), rgba(9, 22, 47, 0.958)), url("../first-project/Assets/secondBackground\ pic.jpg");
     height: 350vh;
     padding-top: 100px;
+    /* margin-top: 50px; */
 
 }
 
@@ -444,6 +464,19 @@ h6 {
     border-radius: 3px;
 }
 
+.curve-border33 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-bottom-right-radius: 40px;
+    height: 35px;
+
+}
+
+.curve-border34 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-bottom-left-radius: 40px;
+    height: 35px;
+
+}
 /* FOURTH PAGE */
 
 .fourthcontainer {
@@ -761,8 +794,6 @@ h6 {
 
 }
 
-
-
 .title44 h2 {
     font-size: 38px;
     font-weight: bolder;
@@ -800,9 +831,12 @@ h6 {
     margin-left: 12px;
 }
 
-.fifthcontainer{
-    background-image:url("../first-project/Assets/dot_pattern.png") ;
-    background-size:250px;
+   /* fifthcontainer */
+
+
+.fifthcontainer {
+    background-image: url("../first-project/Assets/dot_pattern.png");
+    background-size: 250px;
     height: 60vh;
     background-color: #F9F9F9;
 
@@ -811,7 +845,7 @@ h6 {
 
 .topheading1 {
     height: 80vh;
-    /* max-width: 1500px; */
+    
 }
 
 .topheading1 h1 {
@@ -827,25 +861,26 @@ h6 {
     text-align: center;
 }
 
-
-/* .line2 h6 {
-    color: black;
-    line-gap-override: 1px;
-    padding-bottom: 2px;
-}
-
-.line3 h6 {
-    color: black;
-    line-gap-override: 1px;
-    padding-bottom: 2px;
-} */
-
-
 .flagimage img {
     height: 180px;
     width: 1800px;
 
 }
+
+.curve-border51 {
+    background-color: white;
+    border-top-right-radius: 40px;
+    height: 35px;
+
+}
+
+.curve-border52 {
+    background-color: white;
+    border-top-left-radius: 40px;
+    height: 35px;
+}
+
+        /* sixthcontainer */
 
 .sixthcontainer {
     height: 100vh;
@@ -904,7 +939,6 @@ h6 {
 
 .image52 p {
     text-align: center;
-    /* font-weight: none; */
     font-size: 14px;
 
 }
@@ -919,81 +953,23 @@ h6 {
     font-size: 14px;
 }
 
-/* 2nd row */
 
+/* seventh page */
 
-/* .firstrow-images{
-    margin-top: 100px;
-    padding-left: 350px;
-    padding-right: 350px;
-    text-align: center;
-}
-
-
-.image511 img{
-    height: 60px;
-    width: 80px;
-    
-}
-
-.image522 img{
-    height: 60px;
-    width: 80px;
-    font-weight: none;
-}
-
-.image533 img{
-    height: 60px;
-    width: 80px;
-}
-
-.image544 img{
-    height: 60px;
-    width: 80px;
-}
-
-
-.image511 p{
-    text-align: center;
-    font-size: 14px;
-}
-
-.image522 p{
-    text-align: center;
-    font-weight: none;
-    font-size: 14px;
-    
-}
-
-.image533 p{
-    text-align: center;
-    font-size: 14px;
-}
-
-.image544 p{
-    text-align: center;
-    font-size: 14px;
-} */
-
-                                           /* seventh page */
 
 .seventhcontainer {
-    height: 200vh;
+    height: 190vh;
     background-color: #F9F9F9;
     margin-top: 120px;
-    background-image:url("../first-project/Assets/dot_pattern.png") ;
-    background-size:250px;
+    background-image: url("../first-project/Assets/dot_pattern.png");
+    background-size: 250px;
 
 }
 
-
 .mainheading {
-
     padding-top: 80px;
     text-align: center;
     font-size: 45px;
-
-
 }
 
 .word11,
@@ -1019,8 +995,7 @@ h6 {
 
 }
 
-
-.siximages img{
+.siximages img {
     height: 250px;
     width: 250px;
     display: flex;
@@ -1031,12 +1006,13 @@ h6 {
     padding-left: 0px;
     margin-left: 50px;
     border-radius: 5px;
-  
+
 }
 
-.title7{
+.title7 {
     margin-top: 200px;
 }
+
 .title7 h2 {
     font-size: 38px;
     font-weight: bolder;
@@ -1062,7 +1038,6 @@ h6 {
     height: 300px;
     margin-top: 150px;
 
-
 }
 
 .img71 {
@@ -1070,11 +1045,9 @@ h6 {
     z-index: 1;
     height: 200px;
     width: 200px;
-   bottom: 140px;
+    bottom: 140px;
     margin-left: 450px;
     border-radius: 5px;
-
-
 }
 
 .img72 {
@@ -1086,7 +1059,6 @@ h6 {
     left: 475px;
     border-radius: 5px;
 
-
 }
 
 .img73 {
@@ -1094,8 +1066,8 @@ h6 {
     z-index: 1;
     width: 170px;
     height: 170px;
-   bottom: 140px;
-   right: 200px;
+    bottom: 140px;
+    right: 200px;
     border-radius: 5px;
 
 }
@@ -1108,22 +1080,20 @@ h6 {
     border-radius: 5px;
     top: 280px;
     left: 230px;
-
-
 }
 
 .img75 {
-     position: absolute;
-     z-index: 2;
-     height: 140px;
-     width: 150px;
-     top: 110px;
-     left: 60px;
+    position: absolute;
+    z-index: 2;
+    height: 140px;
+    width: 150px;
+    top: 110px;
+    left: 60px;
     border-radius: 5px;
 
 }
 
-.img76{
+.img76 {
     position: absolute;
     z-index: 2;
     height: 140px;
@@ -1134,7 +1104,7 @@ h6 {
 
 }
 
-.img77{
+.img77 {
     position: absolute;
     z-index: 2;
     height: 180px;
@@ -1144,7 +1114,7 @@ h6 {
     border-radius: 5px;
 }
 
-.img78{
+.img78 {
     position: absolute;
     z-index: 3;
     height: 300px;
@@ -1152,28 +1122,220 @@ h6 {
     left: 195px;
     top: 100px;
 }
-.starcontainer{
+
+.starcontainer {
     margin-top: 200px;
-    /* margin-left: 700px; */
     text-align: center;
-    
+
 }
 
-.stars i{
+.stars i {
     color: #F2B827;
     font-size: 30px;
-    
+
 }
 
-.starcontainer h1{
+.starcontainer h1 {
     padding-top: 20px;
     font-weight: bold;
+
+}
+
+.starcontainer p {
+    color: black;
+    text-align: center;
+
+}
+
+#carouselExampleInterval img {
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+
+
+/* eigthcontainer */
+
+
+.eigthcontainer {
+    height: 460px;
+    margin-top: 110px;
+    /* background-color: #F9F9F9;
+    background-image:url("../first-project/Assets/dot_pattern.png") ;
+    background-size:250px; */
+}
+
+.word8 {
+    color: #CFA670;
+    font-style: italic;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 330px;
+
+
+}
+
+.eigthcontainer h2 {
+    text-align: left;
+    padding-left: 330px;
+    padding-right: 650px;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.logo-text {
+    margin-top: 100px;
+
+}
+
+.logo-text img {
+    height: 50px;
+    width: 60px;
+    margin-left: 580px;
+
+}
+
+.text88 {
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.numbers {
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 70px;
+
+
+}
+
+.logo-text h6 {
+    color: black;
+    font-size: 16px;
+    padding-left: 500px;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1px;
+
+}
+
+.ninthcontainer {
+    height: 600px;
+    background-color: #F9F9F9;
+    background-image: url("../first-project/Assets/dot_pattern.png");
+    background-size: 250px;
+
+}
+
+/* tenthcontainer */
+
+.curve-border10 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-top-right-radius: 40px;
+    height: 35px;
+
+}
+
+.curve-border20 {
+    background-color: rgba(4, 15, 44, 0.94);
+    border-top-left-radius: 40px;
+    height: 35px;
+
+}
+
+.tenthcontainer {
+    height: 850px;
+    background-image: linear-gradient(rgba(6, 21, 53, 0.94), rgba(9, 22, 47, 0.958)), url("../first-project/Assets/secondBackground\ pic.jpg");
     
 }
 
-.starcontainer p{
-    color: black;
+
+.topheading10 {
     text-align: center;
-    
-    
+    padding-top: 15px;
+
 }
+
+.word101,
+.word103 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.word102 {
+    color: #CFA670;
+    ;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.topheading10 h3 {
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.card-body {
+    margin-left: 20px;
+}
+
+.card-title {
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    margin-right: 55px;
+}
+
+
+.card-price {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 130px;
+
+}
+
+.card-list {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 40px;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.card {
+    height: 490px;
+    width: 380px;
+    border-radius: 5px;
+    padding-right: 30px;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 3%;
+}
+
+.pricing-button {
+    color: #FFFFFF;
+    background: #CFA670;
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 25px;
+    position: absolute;
+    bottom: 45px;
+    padding-left: 28px;
+    padding-right: 28px;
+
+}
+
+.tickicon10 {
+    font-size: 17px;
+    padding-left: 6px;
+
+}
+
