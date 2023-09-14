@@ -60,12 +60,11 @@ body {
 
 
 .navbar-container {
-    /* flex-direction: row; */
     justify-content: space-around;
     align-items: center;
 }
 
-.text{
+.text {
     margin-left: 200px;
     gap: 25px;
     justify-content: center;
@@ -73,6 +72,7 @@ body {
     font-weight: 550;
 
 }
+
 .navbar {
     margin-right: 15%;
     margin-left: 15%;
@@ -113,7 +113,6 @@ button {
     padding: 15px 35px;
     display: flex;
     border-color: white;
-    /* margin-bottom: 25%; */
 
 }
 
@@ -135,27 +134,15 @@ button {
 
 }
 
-.head01{
+.head01 {
     font-weight: bolder;
-    /* display: flex; */
     font-size: 50px;
-    /* margin-left: 90px; */
     justify-content: center;
     text-align: center;
 
 }
 
-/* .head1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 450px;
-    justify-content: center;
-    max-width: 45%;
-} */
-
 .head02 {
-    /* margin-left: 5%; */
     margin-top: 0;
     font-size: 50px;
     font-weight: bolder;
@@ -163,10 +150,6 @@ button {
     text-align: center;
 }
 
-marquee {
-    /* margin-left: 2%; */
-    /* padding-top: 20px; */
-}
 
 
 .para p {
@@ -208,9 +191,6 @@ marquee {
     margin-right: 10px;
     border-radius: 5px;
     margin-bottom: 30px;
-    /* box-shadow: 0px 50px 0px 0px rgba(0, 0, 0, 0.8); */
-    /* box-shadow: none; */
-
 }
 
 .img4 {
@@ -248,20 +228,16 @@ marquee {
 
 .sentence {
     color: #CFA670;
-    /* padding-left: 11%; */
-    /* padding-right: 200px; */
     font-family: Sans-serif;
-    /* margin-top: 0; */
     justify-content: center;
 
 
 }
 
 .group-images {
-    /* margin-left: 6%; */
     align-items: center;
     justify-content: center;
-    
+
 }
 
 /*image 1*/
@@ -463,7 +439,6 @@ marquee {
 
 .sub img {
     height: auto;
-    /* max-width: 70%; */
     margin-left: 25%;
     background-color: transparent;
     margin-top: 37%;
@@ -590,28 +565,28 @@ h6 {
 
 
 .curve-border31 {
-    background-color: rgba(4, 15, 44, 0.94);
+    background-color: rgba(4, 2, 44, 0.94);
     border-top-right-radius: 40px;
     height: 35px;
 
 }
 
 .curve-border32 {
-    background-color: rgba(4, 15, 44, 0.94);
+    background-color: rgba(4, 2, 44, 0.94);
     border-top-left-radius: 40px;
     height: 35px;
 
 }
 
 .curve-border33 {
-    background-color: rgba(4, 15, 44, 0.94);
+    background-color: rgba(4, 2, 44, 0.94);
     border-bottom-right-radius: 40px;
     height: 35px;
 
 }
 
 .curve-border34 {
-    background-color: rgba(4, 15, 44, 0.94);
+    background-color: rgba(4, 2, 44, 0.94);
     border-bottom-left-radius: 40px;
     height: 35px;
 
@@ -620,17 +595,12 @@ h6 {
 .menuimages {
     align-items: center;
     margin-left: 5%;
-    /* margin: 2%; */
-    
-    
 }
 
-.menuimages img{
-    /* margin: %; */
+.menuimages img {
     max-width: 100%;
 
 }
-
 
 
 /* FOURTH PAGE */
@@ -657,10 +627,6 @@ h6 {
     z-index: 1;
     max-width: 88%;
     height: auto;
-    /* float: right; */
-    /* margin-left: 12%; */
-
-
 }
 
 .img102 {
@@ -668,9 +634,7 @@ h6 {
     z-index: 2;
     max-width: 20%;
     height: auto;
-    /* float: left; */
     margin-top: 17%;
-    /* margin-left: 3%; */
 
 }
 
@@ -846,9 +810,6 @@ h6 {
     position: relative;
     max-width: 100%;
     height: auto;
-    /* transition: all 0.3s ease;
-    transition: transform 0.1s linear;*/
-
 }
 
 .img31 {
@@ -937,9 +898,6 @@ h6 {
 .large-image4 {
     position: relative;
     height: auto;
-
-    /* background-color: transparent;
-    background-image: linear-gradient(180deg, #FFFFFF 0%, #F0F0F0 100%); */
 }
 
 .img41 {
@@ -997,7 +955,6 @@ h6 {
 
 .tickicon3 {
     font-weight: bold;
-    /* padding-left: 6px; */
     font-size: 15px;
 }
 
@@ -1128,9 +1085,6 @@ h6 {
 }
 
 
-
-
-
 /* seventh page */
 
 
@@ -1193,7 +1147,6 @@ h6 {
 
 .title7 {
     margin-top: 3%;
-    /* max-width: 80%; */
     padding-right: 5%;
 }
 
@@ -1230,7 +1183,6 @@ h6 {
     max-width: 22%;
     border-radius: 5px;
     left: 60%;
-    /* transition: transform 0.2s; */
 }
 
 .img72 {
@@ -1339,7 +1291,6 @@ h6 {
     margin-left: 30%;
     margin-top: 2%;
     height: auto;
-    /* width: 40%; */
 }
 
 
@@ -1488,20 +1439,20 @@ h6 {
 /* tenthcontainer */
 
 
-/* .curve-border10 {
-    background-color: rgba(4, 15, 44, 0.94);
+.curve-border10 {
+    background-color: rgba(4, 8, 44, 0.94);
     border-top-right-radius: 40px;
     height: 35px;
 
 }
 
 .curve-border20 {
-    background-color: rgba(4, 15, 44, 0.94);
+    background-color: rgba(4, 5, 44, 0.94);
     border-top-left-radius: 40px;
     height: 35px;
 
-} */
-/* ------------------------------------------------------- */
+}
+
 .tenthcontainer {
     height: auto;
     background-image: linear-gradient(rgba(6, 21, 53, 0.94), rgba(9, 22, 47, 0.958)), url("../first-project/Assets/secondBackground\ pic.jpg");
@@ -1576,14 +1527,9 @@ h6 {
     min-width: 10%;
     border-radius: 5px;
     margin: auto;
-    /* margin-left: 750px; */
-    /* margin-top: 3%; */
     padding-bottom: 2%;
     padding-top: 2%;
-    /* display: flex; */
-    /* align-items: center; */
     justify-content: center;
-    /* margin-bottom: 5%; */
 }
 
 .pricing-button {
@@ -1619,25 +1565,20 @@ progress {
 
 
 
-
-
-
-
-
 @media only screen and (max-width: 850px) {
 
     /* For mobile phones: */
-    /* .menuimages .title .large-image1 .large-image2 .title11 .row1 img */.card{ 
+    .card {
         max-width: 100%;
-        /* margin-left: 0%; */
+
     }
 }
 
 
 
 @media only screen and (max-width: 376px) {
-    .menuimages img{
-    margin: auto;
-    /* max-width: 100%; */
+    .menuimages img {
+        margin: auto;
+
     }
 }
