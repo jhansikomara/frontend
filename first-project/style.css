@@ -65,10 +65,9 @@ body {
 }
 
 .text {
-    margin-left: 200px;
+    margin-right: 4%;
     gap: 25px;
     justify-content: center;
-    text-align: center;
     font-weight: 550;
 
 }
@@ -85,6 +84,74 @@ body {
 
 }
 
+/* Sliding navbar  */
+#navbar {
+    background-color: white;
+    position: fixed;
+    top: -50px;
+    /* Hide the navbar 50 px outside of the top view */
+    width: 100%;
+    transition: top 0.5s;
+    /* Transition effect when sliding down (and up) */
+    /* margin-right: 15%; */
+    /* margin-left: 15%; */
+    /* padding-top: 2%; */
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: auto;
+
+}
+
+#navbar .text {
+    /* margin-left: 5px; */
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 550;
+    color: black;
+}
+
+#navbar .nav-link {
+    height: auto;
+    font-size: 15px;
+    color: black;
+    margin-bottom: 1%;
+    
+} 
+
+ #navbar .nav-link:hover {
+    color: #CFA670;
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+#navbar .button{
+    background-color: #CFA670;
+    /* margin-top: 2%; */
+    border-radius: 5px;
+    /* margin-right: 15%; */
+    outline: #CFA670;
+
+}
+
+#navbar .button:hover {
+    transform: scale(1.1);
+}
+
+#navbar img {
+    width: 55%;
+    height: auto;
+    /* margin-top: 18%; */
+    
+
+}
+
+.jhansi{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
 
 .nav-link {
     height: auto;
@@ -444,7 +511,7 @@ button {
 .main1 {
     margin-left: 17%;
     margin-right: 15%;
-    
+
 }
 
 .main1 h6 {
@@ -460,7 +527,7 @@ button {
 
 } */
 
-.img301{
+.img301 {
     height: 67%;
     background-color: white;
     width: 9vw;
@@ -468,7 +535,7 @@ button {
     padding: 28%;
 }
 
-.img302{
+.img302 {
     height: 67%;
     background-color: white;
     width: 9vw;
@@ -476,7 +543,7 @@ button {
     padding: 28%;
 }
 
-.img303{
+.img303 {
     height: 67%;
     background-color: white;
     width: 9vw;
@@ -486,13 +553,14 @@ button {
 
 .sub {
     height: auto;
-    margin-right:4%;
+    margin-right: 4%;
     background-color: transparent;
     margin-top: 7%;
     margin-left: 7%;
 
 }
-.sub img{
+
+.sub img {
     max-width: 75%;
     height: auto;
 }
@@ -1342,7 +1410,7 @@ h6 {
 
 
 #carouselExampleInterval img {
-    margin-left: 30%;
+    margin-left: 29%;
     margin-top: 2%;
     height: auto;
 }
@@ -1639,13 +1707,13 @@ progress {
 
 @media only screen and (max-width: 766px) {
 
-          .group-images {
-            margin: auto;
-          }
+    .group-images {
+        margin: auto;
+    }
 }
 
 @media only screen and (max-width: 766px) {
-    .image1 p{
+    .image1 p {
         text-align: center;
         max-width: 70vw;
         margin: auto;
@@ -1654,7 +1722,7 @@ progress {
 }
 
 @media only screen and (max-width: 766px) {
-    .image1 h5{
+    .image1 h5 {
         text-align: center;
         max-width: 500px;
         margin: auto;
@@ -1663,21 +1731,21 @@ progress {
 }
 
 @media only screen and (max-width: 766px) {
-        .image1 img{
+    .image1 img {
         height: auto;
         max-width: 70%;
     }
 }
 
 @media only screen and (max-width: 766px) {
-   .image2 img{
-    height: auto;
-    max-width: 55%;
-}
+    .image2 img {
+        height: auto;
+        max-width: 55%;
+    }
 }
 
-@media only screen and (max-width: 766px){
-    .image2 p{
+@media only screen and (max-width: 766px) {
+    .image2 p {
         text-align: center;
         max-width: 81%;
         margin: auto;
@@ -1686,7 +1754,7 @@ progress {
 }
 
 @media only screen and (max-width: 766px) {
-    .image2 h5{
+    .image2 h5 {
         text-align: center;
         max-width: 50%;
         margin: auto;
@@ -1695,130 +1763,127 @@ progress {
 }
 
 @media only screen and (max-width: 766px) {
-    .image3 img{
-     height: auto;
-     max-width: 65%;
- }
- }
- 
- @media only screen and (max-width: 766px){
-     .image3 p{
-         text-align: center;
-         max-width: 75%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
- 
- @media only screen and (max-width: 766px) {
-     .image3 h5{
-         text-align: center;
-         max-width: 60%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
+    .image3 img {
+        height: auto;
+        max-width: 65%;
+    }
+}
 
- @media only screen and (max-width: 766px) {
-    .image4 img{
-     height: auto;
-     max-width: 65%;
- }
- }
- 
- @media only screen and (max-width: 766px){
-     .image4 p{
-         text-align: center;
-         max-width: 90%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
- 
- @media only screen and (max-width: 766px) {
-     .image4 h5{
-         text-align: center; 
-         max-width: 70%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
+@media only screen and (max-width: 766px) {
+    .image3 p {
+        text-align: center;
+        max-width: 75%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
 
+@media only screen and (max-width: 766px) {
+    .image3 h5 {
+        text-align: center;
+        max-width: 60%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
 
- @media only screen and (max-width: 766px) {
-    .image5 img{
-     height: auto;
-     width: 80%;
- }
- }
- 
- @media only screen and (max-width: 766px){
-     .image5 p{
-         text-align: center;
-         max-width: 85%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
- 
- @media only screen and (max-width: 766px) {
-     .image5 h5{
-         text-align: center; 
-         max-width: 60%;
-         margin: auto;
-         line-height: 1.8;
-         margin-left: 28%;
-     }
- }
+@media only screen and (max-width: 766px) {
+    .image4 img {
+        height: auto;
+        max-width: 65%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image4 p {
+        text-align: center;
+        max-width: 90%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image4 h5 {
+        text-align: center;
+        max-width: 70%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
 
 
- @media only screen and (max-width: 766px) {
-    .image6 img{
-     height: auto;
-     width: 80%;
- }
- }
- 
- @media only screen and (max-width: 766px){
-     .image6 p{
-         text-align: center;
-         max-width: 85%;
-         margin: auto;
-         line-height: 1.8;
-     }
- }
- 
- @media only screen and (max-width: 766px) {
-     .image6 h5{
-         text-align: center; 
-         max-width: 60%;
-         margin: auto;
-         line-height: 1.8;
+@media only screen and (max-width: 766px) {
+    .image5 img {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image5 p {
+        text-align: center;
+        max-width: 85%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image5 h5 {
+        text-align: center;
+        max-width: 60%;
+        margin: auto;
+        line-height: 1.8;
+        margin-left: 28%;
+    }
+}
+
+
+@media only screen and (max-width: 766px) {
+    .image6 img {
+        height: auto;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image6 p {
+        text-align: center;
+        max-width: 85%;
+        margin: auto;
+        line-height: 1.8;
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .image6 h5 {
+        text-align: center;
+        max-width: 60%;
+        margin: auto;
+        line-height: 1.8;
         margin-left: 26%;
-     }
- }
+    }
+}
 
 
- @media only screen and (max-width: 766px) {
-    .icontext{
+@media only screen and (max-width: 766px) {
+    .icontext {
         margin: 10%;
         font-size: 16px;
-        
-    }
- }
 
- @media only screen and (max-width: 766px){
-    .title-p4  .large-image1{
+    }
+}
+
+@media only screen and (max-width: 766px) {
+    .title-p4 .large-image1 {
         max-width: 100%;
         height: auto;
         margin: auto;
 
     }
- }
+}
 
- @media only screen and (max-width: 766px){
-    .curve-border33{
-
-
-    }
- }
+@media only screen and (max-width: 766px) {
+    .curve-border33 {}
+}
